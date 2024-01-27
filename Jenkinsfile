@@ -5,7 +5,7 @@ pipeline{
         stage("Stage One"){
               agent any
               options {
-                    skipDefaultCheckout ()
+                    skipDefaultCheckout()
               }
              steps{
                 echo "Hello from Stage One"
